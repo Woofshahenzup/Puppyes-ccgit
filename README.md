@@ -26,6 +26,7 @@ Lo primero que debemos hacer es:
 Puedes adquirir una cuenta y configurarla desde el sitio web en [Github](https://github.com <https://github.com/)
 
 Descargar los paquetes 
+
 [git-1.8.4.2.pet](http://ubuntuone.com/7kqwljWMJN8Pg808cdIc0V)
 
 [ccgit-0.1.pet](http://ubuntuone.com/5zjNYiDOCJVtI9hbpfdwxy)
@@ -43,21 +44,20 @@ ordenador, ahi es donde entra en accion el script de automatizacion ccgit
 Originalmente el script fue escrito por D-coy y su finalidad es configurar git en 
 nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve descripción.
 
- Tu identidad 
- ~~~~~~~~~~~~
+##Tu identidad 
+
 `git config --global user.name woofshahenuzp donde "wooshahenzup" es tu usuario
-git config --global user.email tu-correo@bla.com "escribes tu correo"
+ git config --global user.email tu-correo@bla.com "escribes tu correo"`
 
- Otros parámetros
- ~~~~~~~~~~~~~~~~ 
-git config --global core.editor geany  Tu editor "geany" es por default
-git config --global core.pager '' 
-git config --global color.ui true
-git config --global http.sslVerify false
-git config --global push.default matching
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
-
-Esto es lo que hace el script, si hay alguna configuración extra solo edita el archivo 
-en /usr/bin/ccgit 
+##Otros parámetros
+ 
+`git config --global core.editor geany  Tu editor "geany" es por default
+ git config --global core.pager '' 
+ git config --global color.ui true
+ git config --global http.sslVerify false
+ git config --global push.default matching
+ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+Esto es lo que hace el script, si hay alguna configuración extra solo edita
+el archivo en /usr/bin/ccgit 
 
 
