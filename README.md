@@ -34,7 +34,7 @@ Donde alojar nuestro proyecto no es complicado, hasta ahora solo
 nos hemos manejado desde el sitio web y descargado los paquetes que nos permitirán 
 configurar y usar git en nuestro ordenador.
 
-.. image:: http://i.imgur.com/T5oZAQ3.png
+ .. image:: http://i.imgur.com/T5oZAQ3.png
 
 
 
