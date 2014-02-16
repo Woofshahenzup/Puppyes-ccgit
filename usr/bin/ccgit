@@ -1,0 +1,41 @@
+#!/bin/sh
+#Script para automatizar configuración de git y clonar repositorios remotos
+#27122013 Escritor por D-coy
+#27122013, GPL3 (/usr/share/doc/legal)
+#27122013 nilsonmorales lineas de ayuda
+
+# Configuraciones de Usuario y Correo electronico
+
+echo -n 'Ingrese su Usuario: '
+read usuario
+if git config --global user.name $usuario 2>/dev/null ; then
+git config --global user.name $usuario
+     
+echo -n 'Ingrese su Correo: '
+read correo
+git config --global user.email $correo
+
+#Configuraciones generales 
+     
+git config --global core.editor geany
+git config --global core.pager ''
+git config --global color.ui true
+git config --global http.sslVerify false
+git config --global push.default matching
+#git config --global push.default simple
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+echo -n "Quieres clonar un repo? s/n: "
+read clonar
+if [ "$clonar" == "s" ]; then
+
+#Introducir dirección electrónica del repositorio a clonar
+#Ejemplo: https://github.com/nilsonmorales/Badass
+
+echo -n "URL del repo a clonar: "
+read repo
+git clone $repo
+fi
+else
+echo 'Necesitas tener "git" instalado...'   
+exit
+fi 
