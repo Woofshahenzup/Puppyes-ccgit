@@ -23,7 +23,20 @@ Lo primero que debemos hacer es:
 - Crear nuestro repositorio o proyecto.
 - Configurar y clonar nuestro proyecto a la pc.
 
-Puedes adquirir una cuenta y configurarla desde el sitio web `https://github.com <https://github.com/>`
+Puedes adquirir una cuenta y configurarla desde el sitio web en [Github](https://github.com <https://github.com/)
+
 Descargar los paquetes 
-`git-1.8.4.2.pet <http://ubuntuone.com/7kqwljWMJN8Pg808cdIc0V>`
-`ccgit-0.1.pet <http://ubuntuone.com/5zjNYiDOCJVtI9hbpfdwxy>`
+[git-1.8.4.2.pet](http://ubuntuone.com/7kqwljWMJN8Pg808cdIc0V)
+[ccgit-0.1.pet](http://ubuntuone.com/5zjNYiDOCJVtI9hbpfdwxy)
+
+Crear un repositorio. 
+Donde alojar nuestro proyecto no es complicado, hasta ahora solo
+nos hemos manejado desde el sitio web y descargado los paquetes que nos permitirán 
+configurar y usar git en nuestro ordenador.
+
+.. image:: http://i.imgur.com/T5oZAQ3.png
+
+
+
+
+
