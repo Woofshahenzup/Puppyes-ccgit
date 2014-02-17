@@ -3,9 +3,9 @@ Puppyes-ccgit
 
 Guia para mortales, configura y clona repositorios de git en PuppyLinux
 
-La perspectiva de un usuario comun y corriente sin poderes mutantes, pero
-cual es la idea de usar git para gestionar un proyecto ya sea personal o 
-grupal, bueno veamos algunas ventajas.
+La perspectiva de un usuario comun y corriente sin poderes mutantes.
+¿Pero cual es la idea de usar git para gestionar un proyecto ya sea personal o 
+grupal?, bueno veamos algunas ventajas.
 
 - Se puede trabajar en el proyecto incluso sin una conexion a internet
 - Es mas rápido desarrollar proyectos.
@@ -39,7 +39,13 @@ configurar y usar git en nuestro ordenador.
 ![screenshot](http://i.imgur.com/T5oZAQ3.png)
 
 Una vez creado nuestro repositorio solo nos falta configurar nuestra cuenta en el 
-ordenador, ahi es donde entra en accion el script de automatizacion ccgit 
+ordenador, ahi es donde entra en accion el script de automatizacion ccgit, es recomendable
+empezar un proyecto con un archivo Readme y con un archivo de Licencia para proyectos
+libres.
+
+Escribe en terminal 
+
+`ccgit'
 
 Originalmente el script fue escrito por D-coy y su finalidad es configurar git en 
 nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve descripción.
@@ -75,4 +81,31 @@ Seguido de la URL del repositorio ej:
 
 `git clone https://github.com/Woofshahenzup/Puppyes-ccgit.git`
 
+Ahora ya podemos ver nuestro proyecto en nuestra carpeta HOME, es en este punto que
+podremos trabajar nuestro proyecto con tranquilidad. 
+
+Demasiada teoria? bueno simplificando las cosas solo corriendo el script de automatizacion ya puedes
+tener lo anteriormente explicado claro con los paquetes instalados y con tu cuenta creada.
+
+##Trabajando en tu ordenador 
+
+![screenshot](http://i.imgur.com/16yzwOn.png)
+
+Bien ahora trabaja normal en tu directorio, dependiendo a las necesidades de tu proyecto
+- Creando un documento 
+- Creando una estructura de un paquete ejemplo /usr/bin/ccgit el archivo que he subido a este
+  proyecto.
+- Editando un documento, script o cualquier otra cosa
+- Agregando mas archivos con diferentes extensiones .png .txt etc
+
+Cada vez que trabajas dentro de tu directorio proyecto git esta guardando las modificaciones
+esperando que que estas sean enviadas a tu repositorio remoto osea el que esta en el sitio web
+
+##Comandos útiles
+
+Haz un cambio, modifica algun archivo, sube uno nuevo lo que tu quieras, ahora revisa el estado
+
+`git status`
+
+Ves 
 
