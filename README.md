@@ -202,7 +202,6 @@ Otros comandos útiles
 - git checkout master  ( vuelve a la rama principal )
 - git branch -d rama-prueba ( borra la rama prueba )
 
-<<<<<<< HEAD
 ## Fusionando cambios
 
 Bueno  me gustaron los cambios que hice en la rema-prueba ahora, volvemos a la rama 
@@ -213,12 +212,11 @@ a la rama master.
 
 recuerda que siempre por si no estas seguro puedes usar `git branch`.
 Bien ahora fusionamos nuestra rama-prueba.
+Debes aseguarte que tanto las ramas master y pruebas o como las renombres deben estar 
+actualizados sus cambios, siempre es bueno ver el estado antes de fusionar ramas.
 
 `git merge rama-master`
 
 
-
-=======
->>>>>>> rama-prueba
 
 
