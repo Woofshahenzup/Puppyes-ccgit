@@ -23,7 +23,7 @@ Lo primero que debemos hacer es:
 - Crear nuestro repositorio o proyecto.
 - Configurar y clonar nuestro proyecto a la pc.
 
-Puedes adquirir una cuenta y configurarla desde el sitio web en [Github](https://github.com <https://github.com/)
+Puedes adquirir una cuenta y configurarla desde el sitio web en [Github](https://github.com/)
 
 Descargar los paquetes 
 
@@ -46,17 +46,18 @@ nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve desc
 
 ##Tu identidad 
 
-`git config --global user.name woofshahenuzp donde "wooshahenzup" es tu usuario
- git config --global user.email tu-correo@bla.com "escribes tu correo"`
+- git config --global user.name woofshahenuzp donde "wooshahenzup" es tu usuario
+- git config --global user.email tu-correo@bla.com "escribes tu correo"`
 
 ##Otros parámetros
  
-`git config --global core.editor geany  Tu editor "geany" es por default
- git config --global core.pager '' 
- git config --global color.ui true
- git config --global http.sslVerify false
- git config --global push.default matching
- git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+- git config --global core.editor geany  Tu editor "geany" es por default
+- git config --global core.pager '' 
+- git config --global color.ui true
+- git config --global http.sslVerify false
+- git config --global push.default matching
+- git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
 Esto es lo que hace el script, si hay alguna configuración extra solo edita
 el archivo en /usr/bin/ccgit 
 
