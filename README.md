@@ -205,17 +205,29 @@ Otros comandos útiles
 ## Fusionando cambios
 
 Bueno  me gustaron los cambios que hice en la rema-prueba ahora, volvemos a la rama 
-principal del protecto o rama master para hacer la fusión o para aplicar los cambios
+principal del proyecto o rama master para hacer la fusión o para aplicar los cambios
 a la rama master.
 
 `git checkout master`
 
-recuerda que siempre por si no estas seguro puedes usar `git branch`.
+recuerda que siempre por si no estas seguro en que rama estas, puedes usar `git branch`.
 Bien ahora fusionamos nuestra rama-prueba.
 Debes aseguarte que tanto las ramas master y pruebas o como las renombres deben estar 
-actualizados sus cambios, siempre es bueno ver el estado antes de fusionar ramas.
+actualizados sus cambios, siempre es bueno ver el estado de las ramas y hacer los 
+respectivos commits y push para actualizar los cambios antes de fusionar ramas.
 
 `git merge rama-master`
+
+Y borramos la rama-prueba y la quitamos de nuestro repositorio local y remoto ya que no
+la vamos a necesitar màs por el momento.
+
+`git branch -d rama-prueba` Borra la rama de nuestro repositorio local.
+
+![screenshot](http://i.imgur.com/d2Y70rj.png)
+
+`git push origin :rama-prueba` Elimina la rama de nuestro repositorio remoto.
+
+![screenshot](http://i.imgur.com/zyWWSsE.png)
 
 
 
