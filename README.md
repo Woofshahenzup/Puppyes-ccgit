@@ -110,7 +110,7 @@ Haz un cambio, modifica algun archivo, sube uno nuevo lo que tu quieras, ahora r
 
 ![screenshot](http://i.imgur.com/0Pyw3nA.png)
 
-En letras rojas esta el archivo que modifiqué, y ademśs unos dialogos de ayuda 
+En letras rojas esta el archivo que modifiqué, y además unos dialogos de ayuda 
 - git add file para actualizar lo que se le va a hacer commit
 - git checkout -- file para descartar algun archivo. 
 
@@ -134,7 +134,7 @@ Pero bueno hagamos el commit.
 
 `git commit -m "Mensaje del commit entre comillas"`
 
-![screenshot](http://i.imgur.com/EZvCJ3a.png)
+![screenshot](http://i.imgur.com/Xq8YqDQ.png)
 
 Como ven 1 archivo cambió, se insertaron 37, y se borraron 4
 
