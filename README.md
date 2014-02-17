@@ -216,7 +216,7 @@ Debes aseguarte que tanto las ramas master y pruebas o como las renombres deben 
 actualizados sus cambios, siempre es bueno ver el estado de las ramas y hacer los 
 respectivos commits y push para actualizar los cambios antes de fusionar ramas.
 
-`git merge rama-master`
+`git merge rama-prueba`
 
 Y borramos la rama-prueba y la quitamos de nuestro repositorio local y remoto ya que no
 la vamos a necesitar màs por el momento.
