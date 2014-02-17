@@ -1,17 +1,17 @@
 Puppyes-ccgit
 =============
 
-Guia para mortales, configura y clona repositorios de git en PuppyLinux
+Guía para mortales, configura y clona repositorios de git en PuppyLinux
 
-La perspectiva de un usuario comun y corriente sin poderes mutantes.
+La perspectiva de un usuario común y corriente sin poderes mutantes.
 ¿Pero cual es la idea de usar git para gestionar un proyecto ya sea personal o 
 grupal?, bueno veamos algunas ventajas.
 
-- Se puede trabajar en el proyecto incluso sin una conexion a internet
+- Se puede trabajar en el proyecto incluso sin una conexión a internet
 - Es mas rápido desarrollar proyectos.
 - Se puede saber quien ha tocado qué y cuándo el código.
-- Se puede volver atras de forma rápìda.
-- Puede controlar las versiones a tavés de etiquetas.  
+- Se puede volver atrás de forma rápìda.
+- Puede controlar las versiones atavés de etiquetas.  
 - Mejora nuestra capacidad de trabajar en equipo.
 
 La forma practica de usar git en Puppy
@@ -39,7 +39,7 @@ configurar y usar git en nuestro ordenador.
 ![screenshot](http://i.imgur.com/T5oZAQ3.png)
 
 Una vez creado nuestro repositorio solo nos falta configurar nuestra cuenta en el 
-ordenador, ahi es donde entra en accion el script de automatizacion ccgit, es recomendable
+ordenador, ahi es donde entra en acción el script de automatización ccgit, es recomendable
 empezar un proyecto con un archivo Readme y con un archivo de Licencia para proyectos
 libres.
 
@@ -68,7 +68,8 @@ Esto es lo que hace el script, si hay alguna configuración extra solo edita
 el archivo en /usr/bin/ccgit 
 
 Bien el script te pregunta si quieres clonar o bajar un repositorio a tu ordenador 
-y que escribas la url para ello solo vas y copias al portapapeles (copy to clipboard ).
+y que escribas la URL para ello solo vas al sitio web de tu cuenta en github y 
+copias al portapapeles (copy to clipboard ).
 
 ![screenshot](http://i.imgur.com/bVYez9m.png)
 
@@ -84,7 +85,7 @@ Seguido de la URL del repositorio ej:
 Ahora ya podemos ver nuestro proyecto en nuestra carpeta HOME, es en este punto que
 podremos trabajar nuestro proyecto con tranquilidad. 
 
-Demasiada teoria? bueno simplificando las cosas solo corriendo el script de automatizacion ya puedes
+¿Demasiada teoria? bueno simplificando las cosas solo corriendo el script de automatizacion ya puedes
 tener lo anteriormente explicado claro con los paquetes instalados y con tu cuenta creada.
 
 ##Trabajando en tu ordenador 
@@ -98,8 +99,8 @@ Bien ahora trabaja normal en tu directorio, dependiendo a las necesidades de tu 
 - Editando un documento, script o cualquier otra cosa
 - Agregando mas archivos con diferentes extensiones .png .txt etc
 
-Cada vez que trabajas dentro de tu directorio proyecto git esta guardando las modificaciones
-esperando que que estas sean enviadas a tu repositorio remoto osea el que esta en el sitio web
+Cada vez que trabajas dentro de tu directorio proyecto, git esta guardando las modificaciones
+esperando que que éstas sean enviadas a tu repositorio remoto osea el que esta en el sitio web
 
 ##Comandos útiles
 
@@ -109,7 +110,7 @@ Haz un cambio, modifica algun archivo, sube uno nuevo lo que tu quieras, ahora r
 
 ![screenshot](http://i.imgur.com/0Pyw3nA.png)
 
-En letras rojas esta el archivo que modifique, y ademas unos dialogos de ayuda 
+En letras rojas esta el archivo que modifiqué, y ademśs unos dialogos de ayuda 
 - git add file para actualizar lo que se le va a hacer commit
 - git checkout -- file para descartar algun archivo. 
 
@@ -135,7 +136,7 @@ Pero bueno hagamos el commit.
 
 ![screenshot](http://i.imgur.com/EZvCJ3a.png)
 
-Como ven 1 archivo cambio, se insertaron 37, y se borraron 4
+Como ven 1 archivo cambió, se insertaron 37, y se borraron 4
 
 Ahora nuestros cambios ya pueden ser enviados al repositorio remoto si nosotros
 queremos.
