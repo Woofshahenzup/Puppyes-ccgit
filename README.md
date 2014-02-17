@@ -45,7 +45,7 @@ libres.
 
 Escribe en terminal 
 
-`ccgit'
+`ccgit`
 
 Originalmente el script fue escrito por D-coy y su finalidad es configurar git en 
 nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve descripción.
@@ -127,13 +127,13 @@ Letras verdes indican que ya registraste los cambios, mas comandos de ayuda
 
 Muy bien ahora vamos a hacer el commit para incluirlos al HEAD 
 recuerda esta es una guia practica si quieres saber mas puedes buscar tutoriales 
-más explicado sobre la terminologia de git [( Guia rápida )](http://rogerdudler.github.io/git-guide/index.es.html)
+más explicados sobre la terminologia de git [( Guia rápida )](http://rogerdudler.github.io/git-guide/index.es.html)
 
 Pero bueno hagamos el commit. 
 
 `git commit -m "Mensaje del commit entre comillas"`
 
-![screenshot](http://i.imgur.com/EZvCJ3a.png))
+![screenshot](http://i.imgur.com/EZvCJ3a.png)
 
 Como ven 1 archivo cambio, se insertaron 37, y se borraron 4
 
@@ -144,12 +144,14 @@ queremos.
 
 ![screenshot](http://i.imgur.com/9sU6Q0m.png)
 
+Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya puedes
+gestionar tus versiones y proyectos de una forma rápida y sencilla.
 En este punto se te preguntará tu usuario y contraseña de git para poder guardar
 los cambios en tu repositorio remoto.
 Puedes ver el registro de los cambios que has hecho en tu repositorio usando el 
 comando.
 
-`git lg'  (el cual es un alias a git log previamente configurado con el script de automatización) 
+`git lg`  (el cual es un alias a git log previamente configurado con el script de automatización) 
 
 ![screenshot](http://i.imgur.com/jyeAR89.png)
 
