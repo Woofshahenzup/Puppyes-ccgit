@@ -107,5 +107,52 @@ Haz un cambio, modifica algun archivo, sube uno nuevo lo que tu quieras, ahora r
 
 `git status`
 
-Ves 
+![screenshot](http://i.imgur.com/0Pyw3nA.png)
+
+En letras rojas esta el archivo que modifique, y ademas unos dialogos de ayuda 
+- git add file para actualizar lo que se le va a hacer commit
+- git checkout -- file para descartar algun archivo. 
+
+Entonces hacemos el siguiente comando 
+
+`git add .`
+
+Asi registramos nuestros cambios ( añádidos al index ) veamos como cambia ahora si 
+hacemos nuevamente `git status`.
+
+![screenshot](http://i.imgur.com/EZvCJ3a.png)
+
+Letras verdes indican que ya registraste los cambios, mas comandos de ayuda
+- git reset HEAD file  para deshacerlos del index.
+
+Muy bien ahora vamos a hacer el commit para incluirlos al HEAD 
+recuerda esta es una guia practica si quieres saber mas puedes buscar tutoriales 
+más explicado sobre la terminologia de git [( Guia rápida )](http://rogerdudler.github.io/git-guide/index.es.html)
+
+Pero bueno hagamos el commit. 
+
+`git commit -m "Mensaje del commit entre comillas"`
+
+![screenshot](http://i.imgur.com/EZvCJ3a.png))
+
+Como ven 1 archivo cambio, se insertaron 37, y se borraron 4
+
+Ahora nuestros cambios ya pueden ser enviados al repositorio remoto si nosotros
+queremos.
+
+`git push`
+
+![screenshot](http://i.imgur.com/9sU6Q0m.png)
+
+En este punto se te preguntará tu usuario y contraseña de git para poder guardar
+los cambios en tu repositorio remoto.
+Puedes ver el registro de los cambios que has hecho en tu repositorio usando el 
+comando.
+
+`git lg'  (el cual es un alias a git log previamente configurado con el script de automatización) 
+
+![screenshot](http://i.imgur.com/jyeAR89.png)
+
+
+
 
