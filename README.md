@@ -202,6 +202,7 @@ Otros comandos útiles
 - git checkout master  ( vuelve a la rama principal )
 - git branch -d rama-prueba ( borra la rama prueba )
 
+<<<<<<< HEAD
 ## Fusionando cambios
 
 Bueno  me gustaron los cambios que hice en la rema-prueba ahora, volvemos a la rama 
@@ -217,5 +218,7 @@ Bien ahora fusionamos nuestra rama-prueba.
 
 
 
+=======
+>>>>>>> rama-prueba
 
 
