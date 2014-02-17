@@ -186,8 +186,21 @@ Para ver donde estoy parado puedo usar el comando
 
 ![screenshot](http://i.imgur.com/azR7TbE.png)
 
-ahora puedo trabajar en la rama haciendo mis pruebas como estoy editando este archivo 
-Readme.md estos cambios solo se verán en mi 'rama-prueba' después vamos a fusionar los 
+ahora puedo trabajar en la rama haciendo mis pruebas, commits, push, etc. Como estoy editando 
+este archivo Readme.md estos cambios solo se verán en mi 'rama-prueba' después vamos a fusionar los 
 cambios a la rama master.
+
+Si quiero que otros trabajen en la rama-prueba que yo he crado la tengo que subir a 
+mi repositorio remoto 
+
+`git push origin rama-prueba`
+
+![screenshot](http://i.imgur.com/JNqlpr7.png)
+
+Otros comandos útiles
+
+- git checkout master  ( vuelve a la rama principal )
+- git branch -d rama-prueba ( borra la rama prueba )
+
 
 
