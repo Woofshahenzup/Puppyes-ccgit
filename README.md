@@ -61,4 +61,18 @@ nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve desc
 Esto es lo que hace el script, si hay alguna configuración extra solo edita
 el archivo en /usr/bin/ccgit 
 
+Bien el script te pregunta si quieres clonar o bajar un repositorio a tu ordenador 
+y que escribas la url para ello solo vas y copias al portapapeles (copy to clipboard ).
+
+![screenshot](http://i.imgur.com/bVYez9m.png)
+
+Copias la URL donde te lo indique el script, siempre puedes bajar cualquier repositorio
+con el comando 
+
+`git clone`
+
+Seguido de la URL del repositorio ej:
+
+`git clone https://github.com/Woofshahenzup/Puppyes-ccgit.git`
+
 
