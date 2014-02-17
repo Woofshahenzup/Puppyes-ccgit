@@ -190,8 +190,8 @@ ahora puedo trabajar en la rama haciendo mis pruebas, commits, push, etc. Como e
 este archivo Readme.md estos cambios solo se verán en mi 'rama-prueba' después vamos a fusionar los 
 cambios a la rama master.
 
-Si quiero que otros trabajen en la rama-prueba que yo he crado la tengo que subir a 
-mi repositorio remoto 
+Si quiero que otros trabajen en la rama-prueba que yo he creado la tengo que subir a 
+mi repositorio remoto. 
 
 `git push origin rama-prueba`
 
