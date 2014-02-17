@@ -155,6 +155,6 @@ comando.
 
 Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya puedes
 gestionar tus versiones y proyectos de una forma rápida y sencilla.
-Si haces esto de una forma repetitiva podras ver que es tan complicado como parece.
+Si practicas esto repetidaménte podras ver que no es tan complicado como parece.
 
 
