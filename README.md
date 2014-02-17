@@ -144,8 +144,6 @@ queremos.
 
 ![screenshot](http://i.imgur.com/9sU6Q0m.png)
 
-Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya puedes
-gestionar tus versiones y proyectos de una forma rápida y sencilla.
 En este punto se te preguntará tu usuario y contraseña de git para poder guardar
 los cambios en tu repositorio remoto.
 Puedes ver el registro de los cambios que has hecho en tu repositorio usando el 
@@ -155,6 +153,8 @@ comando.
 
 ![screenshot](http://i.imgur.com/jyeAR89.png)
 
-
+Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya puedes
+gestionar tus versiones y proyectos de una forma rápida y sencilla.
+Si haces esto de una forma repetitiva podras ver que es tan complicado como parece.
 
 
