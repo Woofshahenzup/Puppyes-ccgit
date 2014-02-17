@@ -118,7 +118,7 @@ Entonces hacemos el siguiente comando
 
 `git add .`
 
-Asi registramos nuestros cambios ( añádidos al index ) veamos como cambia ahora si 
+Asi registramos nuestros cambios ( añadidos al index ) veamos como cambia ahora si 
 hacemos nuevamente `git status`.
 
 ![screenshot](http://i.imgur.com/EZvCJ3a.png)
@@ -157,5 +157,37 @@ comando.
 Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya puedes
 gestionar tus versiones y proyectos de una forma rápida y sencilla.
 Si practicas esto repetidaménte podras ver que no es tan complicado como parece.
+
+## Creando ramas y su función
+
+Una rama en git a manera fácil de entender es una division de nuestro proyecto principal
+de hecho al proyecto en si se le conoce como rama "master" de ahi podemos partir ramificandolo 
+y su finalidad puede variar de acuerdo a las necesidades aqui algunos ejemplos con este 
+proyecto.
+
+- Quiero agregar una nueva funcionabilidad al script de automatización, un parámetro 
+  extra y no se si va a funcionar.
+- El script tiene errores de ejecución y voy a hacer cambios mas radicales pero no quiero 
+  perder la sintaxis del original
+  
+Entonces creo una rama paralela al proyecto y eso me servirá para trabajar cómodo sin 
+cambiar mi trabajo en la rama 'master'.
+
+`git checkout -b rama-prueba` 
+
+He nombrado a la rama que voy a crear 'rama-prueba' 
+
+![screenshot](http://i.imgur.com/zgzjbRQ.png)
+
+El parámetro extra `-b` me traslada de una vez a la rama-prueba que he creado.
+Para ver donde estoy parado puedo usar el comando 
+
+`git branch`
+
+![screenshot](http://i.imgur.com/azR7TbE.png)
+
+ahora puedo trabajar en la rama haciendo mis pruebas como estoy editando este archivo 
+Readme.md estos cambios solo se verán en mi 'rama-prueba' después vamos a fusionar los 
+cambios a la rama master.
 
 
