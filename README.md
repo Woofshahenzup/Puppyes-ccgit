@@ -229,6 +229,23 @@ la vamos a necesitar màs por el momento.
 
 ![screenshot](http://i.imgur.com/zyWWSsE.png)
 
+## Etiquetas -- Tags 
+
+Bien tratemos de ser practicos un tag, etiqueta, viñeta o como tu prefieras llamarle es
+un punto en la historia de tu trabajo o proyecto en el cual ya tienes algo concreto.
+tu proyecto, programa, paquete o lo que sea que lleves trabajando y sirve para marcar un punto
+donde has lanzado una versión X de tu trabajo. 
+Quieres leer un poco de teoria? [Creando etiquetas](http://git-scm.com/book/es/Fundamentos-de-Git-Creando-etiquetas)
+
+## Aplicando a Puppy 
+
+Imagina que has creado un paquete, luego de haber trabajado en tu código probado y diseñado
+y tu paquete trabaja perfecto, lo has nombrado versión 0.01,  bien entonces es un buen 
+momento para hacerle un tag como dice la teoria un punto en el histórico de tu trabajo donde has
+lanzado esa version del paquete.   
+
+Bueno para poder crear un tag lo primero que vamos a hacer es ver el
+
 
 
 
