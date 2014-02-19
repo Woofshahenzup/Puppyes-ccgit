@@ -231,11 +231,11 @@ la vamos a necesitar màs por el momento.
 
 ## Etiquetas -- Tags 
 
-Bien tratemos de ser practicos un tag, etiqueta, viñeta o como tu prefieras llamarle es
+Bien tratemos de ser prácticos. Un tag, etiqueta, viñeta o como tu prefieras llamarle es
 un punto en la historia de tu trabajo o proyecto en el cual ya tienes algo concreto.
-tu proyecto, programa, paquete o lo que sea que lleves trabajando y sirve para marcar un punto
-donde has lanzado una versión X de tu trabajo. 
-Quieres leer un poco de teoria? [Creando etiquetas](http://git-scm.com/book/es/Fundamentos-de-Git-Creando-etiquetas)
+Proyecto, programa, paquete o lo que sea que lleves trabajando y sirve para marcar un punto
+donde has lanzado una versión X del mismo. 
+¿Quieres leer un poco de teoria? [Creando etiquetas](http://git-scm.com/book/es/Fundamentos-de-Git-Creando-etiquetas)
 
 ## Aplicando a Puppy 
 
@@ -266,12 +266,12 @@ tambien tienes que mandarlo a tu repositorio remoto para eso hacemos.
 
 ![screenshot](http://i.imgur.com/4ZU8deU.png)
 
-Y si observas tu repo remoto tambien podras apreciar el cambio.
+Y si observas tu repo remoto también podrás apreciar el cambio.
 
 ![screenshot](http://i.imgur.com/te6C1xv.png)
 
 Como ven crear tags no es tan dificil y es muy bueno para llevar un control de nuestros 
-releases.
+releases o lanzamientos de nuevas versiones.
 
 
 
