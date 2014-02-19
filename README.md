@@ -244,7 +244,34 @@ y tu paquete trabaja perfecto, lo has nombrado versión 0.01,  bien entonces es 
 momento para hacerle un tag como dice la teoria un punto en el histórico de tu trabajo donde has
 lanzado esa version del paquete.   
 
-Bueno para poder crear un tag lo primero que vamos a hacer es ver el
+Bueno para poder crear un tag lo primero que vamos a hacer es ver el registro (log) para 
+visualizar el último commit a que le vamos a hacer tag.
+
+`git lg` 
+
+![screenshot](http://i.imgur.com/xEUMVRp.png)
+
+Vamos a tomar el id del ultimo commit 7b0e873 Para hacer referencia a nuestro tag
+
+`git tag -a ccgit-0.01 -m "Script de automatización de git" 7b0e873`
+
+ahora con el comando `git tag` podré ver mi etiqueta
+
+![screenshot](http://i.imgur.com/J5E1hqv.png)
+
+Si ya vas agarrando el hilo, sabras que si haces una etiqueta en tu repositorio local
+tambien tienes que mandarlo a tu repositorio remoto para eso hacemos. 
+
+`git push --tags`
+
+![screenshot](http://i.imgur.com/4ZU8deU.png)
+
+Y si observas tu repo remoto tambien podras apreciar el cambio.
+
+![screenshot](http://i.imgur.com/te6C1xv.png)
+
+Como ven crear tags no es tan dificil y es muy bueno para llevar un control de nuestros 
+releases.
 
 
 
