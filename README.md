@@ -374,7 +374,7 @@ Ok vamos a meter la pata de verdad haciendo commit de perro-malo.txt.
 
 ![screenshot](http://i.imgur.com/OoVIn8G.png)
 
-En la medida que vas estudiando git te vas dando cuenta que complicar las cosas son es tan sencillo, pero
+En la medida que vas estudiando git te vas dando cuenta que complicar las cosas no es tan sencillo, pero
 puede pasar asi que lo mejor es revisar bien antes de agregar y commitear.
 
 Hice commit `git commit -m "metiendo la pata de verdad"` para borrar o revertir ese cambio hacemos el comando 
@@ -392,6 +392,8 @@ entonces hacemos el comando:
 
 ![screenshot](http://i.imgur.com/TT1msFh.png)
 
-Muy bien ahora borramos normalmente perro-malo.txt de nuestro directorio `git rm perro-malo.txt` y podemos hacer commit
-de nuestras modificaciones arregladas.
+Muy bien ahora borramos normalmente perro-malo.txt de nuestro directorio `git rm perro-malo.txt` y `git checkout perro-malo.txt`
+muy bien, podemos hacer commit de nuestras modificaciones arregladas.
+
+
 
