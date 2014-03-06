@@ -395,5 +395,17 @@ entonces hacemos el comando:
 Muy bien ahora borramos normalmente perro-malo.txt de nuestro directorio `git rm perro-malo.txt` y `git checkout perro-malo.txt`
 muy bien, podemos hacer commit de nuestras modificaciones arregladas.
 
+### Removí el archivo de mi repositorio local pero se muestra en mi repositorio remoto.
 
+Bien ya que tenemos una idea mas clara de como aplicar cambios partiendo de que 
 
+- los repositorios se diferencian por ese único archivo `perro-malo.txt`
+
+entonces lo mas lógico seria.
+1- traer ese archivo a nuestro repositorio local `git pull`
+2- borrar el archivo en el repo local            `git rm perro-malo.txt`
+3- hacer el commit notificando lo que borramos   `git commit -m "removiendo archivos"`
+4- hacer el envio al repositorio remoto          `git push`
+
+Esta forma no es exclusiva puede haber mas de una pero como usuario común resulta mas comodo así.
+De esa manera tendrás tus repositorios sincronizados, limpios, y en orden.
