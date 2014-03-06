@@ -273,8 +273,59 @@ Y si observas tu repo remoto también podrás apreciar el cambio.
 Como ven crear tags no es tan dificil y es muy bueno para llevar un control de nuestros 
 releases o lanzamientos de nuevas versiones.
 
+## Metiendo la pata :)
 
+Hasta el más experto en la materia puede llegar a equivocarse mas aún cuando se trata de usar
+git por lo que vamos a ver un poco como ir corrigiendo esas equivocaciones que tengamos pero 
+antes hablemos como un usuario común (osea yo ;)) piensa que es git.
+Para eso nos planteamos lo siguiente:
 
+Cuando yo uso git para trabajar un proyecto me imagino dos escenarios: 
+- 1 - El repositorio local o mi carpeta de trabajo en la pc.
+- 2 - El repositorio remoto osea lo que veo cuando voy al sitio web de github.com y entro a mi 
+      cuenta.
+No es del todo cierto, un usuario por muy nuevo que sea debe entender que su repositorio local 
+tiene 3 subdivisiones, etapas, areas, árboles o como mejor se entienda para poder sentirse seguro de
+trabajar en su proyecto con toda tranquilidad.
+
+### Repositorio Local
+
+- 1- Directorio de trabajo.
+Es ese directorio que ves en tu pc con el nombre de tu proyecto y que contiene todos los archivos
+y al cual le vas agregando, quitando, editando etc.
+
+- 2- El index o stage index
+Una zona intermedia o área de preparación en explicaciones anteriores hablamos del comando
+
+`git add`
+
+Es en éste punto qué lo que has trabajado lo llevas al area de preparación o indice para luego ser
+"commiteado".
+
+- 3- El HEAD
+El HEAD se refiere a un punto hacia donde señalan nuestros commits, algo muy util cuando
+trabajemos con ramas. cada HEAD tiene un nombre (nombre de la rama o etiqueta).
+Por defecto, hay un HEAD en cada repositorio llamado MASTER y es ahi hacia donde apuntan 
+nuestros commits, pero en determinado momento puedes cambiar a una rama y ésta se convierte
+en el "current head" o cabecera actual. 
+
+Pero la importancia de éstas definiciones son por que tienes que tener en claro cuando borres o 
+cuando creas que hiciste algo mal y quieras revertir debes saber donde estabas parado antes del 
+error.
+
+Pusiste un archivo en el directorio de trabajo y no era el que tu querias.
+Editaste un archivo y te diste cuenta que no era así. 
+Tu archivo ya habia pasado al index con `git add`?.
+Hiciste commit `git commit -m "mensaje" ` y te equivoscate o tuviste un error ortografico.
+Mandaste al repositorio remoto tus cambios `git push` y despues te diste cuenta del error.
+
+Para todos estos casos es necesario saber donde estamos parados y así resultará más fácil
+enmendar el problema, si usas la lógica irás viendo que no es tán complicado revertir un cambio 
+en git.
+
+![screenshot](http://i.imgur.com/r7ls9fG.png)
+
+Una imágen para comprender mejor.
 
 
 
