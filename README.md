@@ -334,5 +334,17 @@ en git.
 
 Una imágen para comprender mejor.
 
+### Pusiste un archivo en el directorio de trabajo y no era el que tu querias.
+
+Puedes crear y borrar sin problemas usando el administrador de archivos (sea rox, pcmanfm etc)
+como tu lo desees click derecho, por linea de comandos tu directorio de trabajo se comportará 
+igual que cualquier carpeta contendora.
+
+![screenshot](http://i.imgur.com/lQW9aHM.png)
+
+Luego de borrado `git status` no mostrará ningún cambio.
+
+![screenshot](http://i.imgur.com/8oWgmqx.png)
+
 
 
