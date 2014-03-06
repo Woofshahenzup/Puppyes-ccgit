@@ -372,3 +372,26 @@ siguientes.
 
 Ok vamos a meter la pata de verdad haciendo commit de perro-malo.txt.
 
+![screenshot](http://i.imgur.com/OoVIn8G.png)
+
+En la medida que vas estudiando git te vas dando cuenta que complicar las cosas son es tan sencillo, pero
+puede pasar asi que lo mejor es revisar bien antes de agregar y commitear.
+
+Hice commit `git commit -m "metiendo la pata de verdad"` para borrar o revertir ese cambio hacemos el comando 
+
+`git reset --hard <sha1-commit-id>`  donde <sha1-commit-id> es el identificador del commit para saber cual es
+basta con hacer `git lg` o `git log` para saber que id tiene el commit que deseamos borrar.
+
+![screenshot](http://i.imgur.com/LwV2nGO.png)
+
+Este es el commit que deseamo sacar:
+`* 6efede1 - (HEAD, master) metiendo la pata de verdad (10 minutes ago) <woofshahenzup>`
+
+entonces hacemos el comando:
+`git reset --hard 6efede1`
+
+![screenshot](http://i.imgur.com/TT1msFh.png)
+
+Muy bien ahora borramos normalmente perro-malo.txt de nuestro directorio `git rm perro-malo.txt` y podemos hacer commit
+de nuestras modificaciones arregladas.
+
