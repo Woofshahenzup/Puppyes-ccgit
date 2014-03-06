@@ -312,7 +312,7 @@ Por defecto, hay un HEAD en cada repositorio llamado MASTER y es ahi hacia donde
 nuestros commits, pero en determinado momento puedes cambiar a una rama y ésta se convierte
 en el "current head" o cabecera actual. 
 
-Pero la importancia de éstas definiciones son por debes tener en claro cuando borres o 
+Pero la importancia de éstas definiciones són por que debes tener en claro cuando borres o 
 cuando creas que hiciste algo mal y quieras revertir debes saber donde estabas parado antes del 
 error.
 
@@ -326,7 +326,7 @@ error.
 
 -Mandaste al repositorio remoto tus cambios `git push` y despues te diste cuenta del error.
 
-Para todos estos casos es necesario saber donde estamos parados y así resultará más fácil
+Para todos estos casos es necesario saber donde estamos y así resultará más fácil
 enmendar el problema, si usas la lógica irás viendo que no es tán complicado revertir un cambio 
 en git.
 
@@ -338,7 +338,7 @@ Una imágen para comprender mejor.
 
 Puedes crear y borrar sin problemas usando el administrador de archivos (sea rox, pcmanfm etc)
 como tu lo desees click derecho, por linea de comandos tu directorio de trabajo se comportará 
-igual que cualquier carpeta contendora.
+igual que cualquier carpeta contenedora.
 
 ![screenshot](http://i.imgur.com/lQW9aHM.png)
 
