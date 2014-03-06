@@ -349,8 +349,8 @@ Luego de borrado `git status` no mostrará ningún cambio.
 ### Tu archivo ya habia pasado al index con `git add`.
 
 como viste en la imagen que te muestra como esta conformado tu repositorio local. supongamos 
-que el archivo perro-malo.txt esta en el index y no lo queremos ahi poer veamos como fue que llego 
-ahi.
+que el archivo perro-malo.txt esta en el index y no lo queremos ahi pero veamos como fué que llegó 
+ahí.
 
 ![screenshot](http://i.imgur.com/wFqvJiJ.png)
 
@@ -361,6 +361,14 @@ para el caso sería `git reset HEAD perro-malo.txt`, ok vamos a probar.
 
 Claramente puedes ver que sacamos a perro-malo.txt del index y muestra la modificación al Readme.md 
 que es el archivo que estoy editando para hacer ésta guia.
+Basta con borrar el archivo de forma normal y tendras nuevamente limpio tu directorio de trabajo.
 
+Hay formas mas seguras de remover archivos con los comandos 
 
+`git rm` y `git rm --cached [archivo]` pero ya que le vas agarrando ritmo veremos eso en capítulos 
+siguientes.
+
+### Hice commit `git commit -m "mensaje" ` y meti la pata.
+
+Ok vamos a meter la pata de verdad haciendo commit de perro-malo.txt.
 
