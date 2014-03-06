@@ -346,5 +346,21 @@ Luego de borrado `git status` no mostrará ningún cambio.
 
 ![screenshot](http://i.imgur.com/8oWgmqx.png)
 
+### Tu archivo ya habia pasado al index con `git add`.
+
+como viste en la imagen que te muestra como esta conformado tu repositorio local. supongamos 
+que el archivo perro-malo.txt esta en el index y no lo queremos ahi poer veamos como fue que llego 
+ahi.
+
+![screenshot](http://i.imgur.com/wFqvJiJ.png)
+
+Git te dice que si deseas "unstage" o quitar de el index hagas el comando `git reset HEAD <file>`
+para el caso sería `git reset HEAD perro-malo.txt`, ok vamos a probar.
+
+![screenshot](http://i.imgur.com/aKadvkZ.png)
+
+Claramente puedes ver que sacamos a perro-malo.txt del index y muestra la modificación al Readme.md 
+que es el archivo que estoy editando para hacer ésta guia.
+
 
 
