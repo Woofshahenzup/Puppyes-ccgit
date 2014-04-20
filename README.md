@@ -14,7 +14,11 @@ grupal?, bueno veamos algunas ventajas.
 - Puede controlar las versiones atavés de etiquetas.  
 - Mejora nuestra capacidad de trabajar en equipo.
 
-La forma practica de usar git en Puppy
+##Tabla de Contenidos##
+
+- [La forma practica de usar git en Puppy](#La-forma-practica-de-usar-git-en-Puppy)
+
+###La forma practica de usar git en Puppy###
 ======================================
 
 Lo primero que debemos hacer es:
@@ -27,9 +31,9 @@ Puedes adquirir una cuenta y configurarla desde el sitio web en [Github](https:/
 
 Descargar los paquetes 
 
-[git-1.8.4.2.pet](http://ubuntuone.com/7kqwljWMJN8Pg808cdIc0V)
+[git-1.8.4.2.pet](https://copy.com/YUEQzvioSaKD)
 
-[ccgit-0.1.pet](http://ubuntuone.com/5zjNYiDOCJVtI9hbpfdwxy)
+[ccgit-0.1.pet](https://copy.com/6ZeEow0E27UK)
 
 Crear un repositorio. 
 Donde alojar nuestro proyecto no es complicado, hasta ahora solo
