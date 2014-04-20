@@ -28,7 +28,7 @@ grupal?, bueno veamos algunas ventajas.
 - [Aplicando a Puppy](#Aplicando-a-Puppy)
 - [Metiendo la pata :)](#Metiendo-la-pata)
 
-###La forma practica de usar git en Puppy###
+##La forma practica de usar git en Puppy##
 
 Lo primero que debemos hacer es:
 - Crear nuestra cuenta en github.
@@ -63,12 +63,12 @@ Escribe en terminal
 Originalmente el script fue escrito por D-coy y su finalidad es configurar git en 
 nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve descripción.
 
-###Tu identidad### 
+##Tu identidad##
 
 - git config --global user.name woofshahenuzp donde "wooshahenzup" es tu usuario
 - git config --global user.email tu-correo@bla.com "escribes tu correo"`
 
-###Otros parámetros###
+##Otros parámetros##
  
 - git config --global core.editor geany  Tu editor "geany" es por default
 - git config --global core.pager '' 
@@ -171,7 +171,7 @@ Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya pued
 gestionar tus versiones y proyectos de una forma rápida y sencilla.
 Si practicas esto repetidaménte podras ver que no es tan complicado como parece.
 
-###Creando ramas y su función###
+##Creando ramas y su función##
 
 Una rama en git a manera fácil de entender es una division de nuestro proyecto principal
 de hecho al proyecto en si se le conoce como rama "master" de ahi podemos partir ramificandolo 
