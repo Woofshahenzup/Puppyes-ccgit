@@ -17,16 +17,16 @@ grupal?, bueno veamos algunas ventajas.
 ##Tabla de Contenidos##
 ======================================
 
-- [La forma practica de usar git en Puppy](#La-forma-practica-de-usar-git-en-Puppy)
-- [Tu identidad](#Tu-identidad)
-- [Otros parámetros](#Otros-parámetros)
-- [Trabajando en tu ordenador](#Trabajando-en-tu-ordenador)
-- [Comandos útiles](#Comandos-útiles)
-- [Creando ramas y su función](#Creando-ramas-y-su-función)
-- [Fusionando cambios](#Fusionando-cambios)
-- [Etiquetas o tags](#Etiquetas-o-tags)
-- [Aplicando a Puppy](#Aplicando-a-Puppy)
-- [Metiendo la pata :)](#Metiendo-la-pata)
+- [La forma practica de usar git en Puppy](#la-forma-practica-de-usar-git-en-Puppy)
+- [Tu identidad](#tu-identidad)
+- [Otros parámetros](#otros-parámetros)
+- [Trabajando en tu ordenador](#trabajando-en-tu-ordenador)
+- [Comandos útiles](#comandos-útiles)
+- [Creando ramas y su función](#creando-ramas-y-su-función)
+- [Fusionando cambios](#fusionando-cambios)
+- [Etiquetas o tags](#etiquetas-o-tags)
+- [Aplicando a Puppy](#aplicando-a-Puppy)
+- [Metiendo la pata :)](#metiendo-la-pata)
 
 ##La forma practica de usar git en Puppy##
 
@@ -215,7 +215,7 @@ Otros comandos útiles
 - git checkout master  ( vuelve a la rama principal )
 - git branch -d rama-prueba ( borra la rama prueba )
 
-###Fusionando cambios###
+##Fusionando cambios##
 
 Bueno  me gustaron los cambios que hice en la rema-prueba ahora, volvemos a la rama 
 principal del proyecto o rama master para hacer la fusión o para aplicar los cambios
@@ -242,7 +242,7 @@ la vamos a necesitar màs por el momento.
 
 ![screenshot](http://i.imgur.com/zyWWSsE.png)
 
-###Etiquetas o Tags### 
+##Etiquetas o Tags## 
 
 Bien tratemos de ser prácticos. Un tag, etiqueta, viñeta o como tu prefieras llamarle es
 un punto en la historia de tu trabajo o proyecto en el cual ya tienes algo concreto.
@@ -250,7 +250,7 @@ Proyecto, programa, paquete o lo que sea que lleves trabajando y sirve para marc
 donde has lanzado una versión X del mismo. 
 ¿Quieres leer un poco de teoria? [Creando etiquetas](http://git-scm.com/book/es/Fundamentos-de-Git-Creando-etiquetas)
 
-###Aplicando a Puppy###
+##Aplicando a Puppy##
 
 Imagina que has creado un paquete, luego de haber trabajado en tu código probado y diseñado
 y tu paquete trabaja perfecto, lo has nombrado versión 0.01,  bien entonces es un buen 
@@ -286,7 +286,7 @@ Y si observas tu repo remoto también podrás apreciar el cambio.
 Como ven crear tags no es tan dificil y es muy bueno para llevar un control de nuestros 
 releases o lanzamientos de nuevas versiones.
 
-###Metiendo la pata###
+##Metiendo la pata##
 
 Hasta el más experto en la materia puede llegar a equivocarse mas aún cuando se trata de usar
 git por lo que vamos a ver un poco como ir corrigiendo esas equivocaciones que tengamos pero 
