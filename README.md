@@ -17,7 +17,7 @@ grupal?, bueno veamos algunas ventajas.
 ##Tabla de Contenidos##
 ======================================
 
-- [La forma practica de usar git en Puppy](#la-forma-practica-de-usar-git-en-Puppy)
+- [La forma practica de usar git en Puppy](#la-forma-practica-de-usar-git-en-puppy)
 - [Tu identidad](#tu-identidad)
 - [Otros parámetros](#otros-parámetros)
 - [Trabajando en tu ordenador](#trabajando-en-tu-ordenador)
@@ -25,10 +25,10 @@ grupal?, bueno veamos algunas ventajas.
 - [Creando ramas y su función](#creando-ramas-y-su-función)
 - [Fusionando cambios](#fusionando-cambios)
 - [Etiquetas o tags](#etiquetas-o-tags)
-- [Aplicando a Puppy](#aplicando-a-Puppy)
+- [Aplicando a Puppy](#aplicando-a-puppy)
 - [Metiendo la pata :)](#metiendo-la-pata)
 
-##La forma practica de usar git en Puppy##
+# #La forma practica de usar git en Puppy ##
 
 Lo primero que debemos hacer es:
 - Crear nuestra cuenta en github.
@@ -63,12 +63,12 @@ Escribe en terminal
 Originalmente el script fue escrito por D-coy y su finalidad es configurar git en 
 nuestro ordenador con ciertos parámetros ya establecidos, veamos una breve descripción.
 
-##Tu identidad##
+## Tu identidad ##
 
 - git config --global user.name woofshahenuzp donde "wooshahenzup" es tu usuario
 - git config --global user.email tu-correo@bla.com "escribes tu correo"`
 
-##Otros parámetros##
+## Otros parámetros ##
  
 - git config --global core.editor geany  Tu editor "geany" es por default
 - git config --global core.pager '' 
@@ -171,7 +171,7 @@ Hasta este punto ya hemos explicado lo mas básico de git en Puppy ahora ya pued
 gestionar tus versiones y proyectos de una forma rápida y sencilla.
 Si practicas esto repetidaménte podras ver que no es tan complicado como parece.
 
-##Creando ramas y su función##
+## Creando ramas y su función ##
 
 Una rama en git a manera fácil de entender es una division de nuestro proyecto principal
 de hecho al proyecto en si se le conoce como rama "master" de ahi podemos partir ramificandolo 
@@ -215,7 +215,7 @@ Otros comandos útiles
 - git checkout master  ( vuelve a la rama principal )
 - git branch -d rama-prueba ( borra la rama prueba )
 
-##Fusionando cambios##
+## Fusionando cambios ##
 
 Bueno  me gustaron los cambios que hice en la rema-prueba ahora, volvemos a la rama 
 principal del proyecto o rama master para hacer la fusión o para aplicar los cambios
@@ -242,7 +242,7 @@ la vamos a necesitar màs por el momento.
 
 ![screenshot](http://i.imgur.com/zyWWSsE.png)
 
-##Etiquetas o Tags## 
+## Etiquetas o Tags ## 
 
 Bien tratemos de ser prácticos. Un tag, etiqueta, viñeta o como tu prefieras llamarle es
 un punto en la historia de tu trabajo o proyecto en el cual ya tienes algo concreto.
@@ -250,7 +250,7 @@ Proyecto, programa, paquete o lo que sea que lleves trabajando y sirve para marc
 donde has lanzado una versión X del mismo. 
 ¿Quieres leer un poco de teoria? [Creando etiquetas](http://git-scm.com/book/es/Fundamentos-de-Git-Creando-etiquetas)
 
-##Aplicando a Puppy##
+## Aplicando a Puppy ##
 
 Imagina que has creado un paquete, luego de haber trabajado en tu código probado y diseñado
 y tu paquete trabaja perfecto, lo has nombrado versión 0.01,  bien entonces es un buen 
@@ -286,7 +286,7 @@ Y si observas tu repo remoto también podrás apreciar el cambio.
 Como ven crear tags no es tan dificil y es muy bueno para llevar un control de nuestros 
 releases o lanzamientos de nuevas versiones.
 
-##Metiendo la pata##
+## Metiendo la pata ##
 
 Hasta el más experto en la materia puede llegar a equivocarse mas aún cuando se trata de usar
 git por lo que vamos a ver un poco como ir corrigiendo esas equivocaciones que tengamos pero 
