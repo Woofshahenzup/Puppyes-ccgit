@@ -480,4 +480,34 @@ del proyecto Clamvtk el cual pertenece a josejp2424.
 
 ![screenshot](http://i.imgur.com/ug63oRz.png)
 
+### El término Upstream ( Wikipedia )
+
+En desarrollo de software, el término inglés upstream (que traducido al español 
+significa algo como «aguas arriba») se refiere al envío de un parche o corrección 
+al autor original del software o, en su defecto, a sus mantenedores principales, 
+para que éste se integre al código fuente del software.
+
+Por ejemplo, un parche enviado upstream es ofrecido a los autores o mantenedores 
+del software. Si es aceptado, será incluido en la aplicación, ya sea inmediatamente o en 
+una versión futura.
+
+El desarrollo en upstream permite a otras distribuciones beneficiarse del parche al 
+utilizar el software. Si por ejemplo se encuentra un error en una aplicación, y 
+los mantenedores de cierta distribución lo corrigen pero no lo envían a upstream, ni 
+las otras distribuciones ni desarrolladores podrán beneficiarse de la corrección 
+sin tener que volver a implementar el parche de manera separada. 
+
+- Para colaborar con el usuario josejp2424 entonces necesito hacer upstream desde mi repositorio
+de la siguiente manera.
+
+`git remote add upstream https://github.com/josejp2424/Clamvtk.git`
+
+Si no hay ningun problema la terminal no les va a tirar ningun error
+
+SIEMPRE antes de trabajar en el proyecto, debemos actualizar el proyecto 
+
+`git pull upstream master`
+
+![screenshot](http://i.imgur.com/yYzMC1a.png)
+
 Continuará....
