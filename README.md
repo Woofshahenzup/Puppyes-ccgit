@@ -445,7 +445,7 @@ que el propietario de dicho repositorio/proyecto.
 Hacer fork quiere decir que tu vas a crear una copia exacta de un proyecto X el cual le 
 pertenece a otra persona, dicha copia exacta estará asociada a tu cuenta de Github lo que 
 significa que habrán 2 proyectos con el mismo nombre, el repositorio original y la copia 
-asociada a tu cuenta, lo que significa que tu puedes hacer los cambios que quieras en tu 
+asociada a tu cuenta, ahora en adelante tu puedes hacer los cambios que quieras en tu 
 Fork, cambiar, borrar, editar, estropear lo que tu quieras sin que eso afecte al repositorio
 original, eso es muy bueno por la independencia que hay aun trabajando un mismo proyecto, y así 
 tu puedes si haces cambios y mejoras notables a dicho proyecto hacer PULL REQUEST, los 
@@ -453,13 +453,31 @@ desarrolladores del proyecto revisan y prueban tus cambios y si eso mejora el re
 lo incorporan al proyecto o simplemente lo ignoran si no les parecen esos cambios y sí así lo desean. 
 
 Lo cual está bien, si alguien hace FORK de un repositorio es por que piensa que le puede 
-servir o por que piensa que puede mejorarlo o adaptarlo a sus necesidades y tú eres libre 
+servir o puede colaborar, también por que piensa que puede mejorarlo o adaptarlo a sus necesidades y tú eres libre 
 de mejorar tu FORK de otro proyecto, sin importar si tus cambios son o no
 agregados al proyecto original.
 
-Para hacer un Fork lo primero que debes haces es: estando logeado con tu cuenta y desde 
-el la página web de github presionamos el botón de `Fork´ desde el sitio web.
+Para hacer un Fork lo primero que debes haces es: 
+- Logearse, debes estar logeado para poder hacer un Fork
+- Estando logeado, escoger el proyecto al cual quieres hacerle un fork. 
+- Presionamos el botón de `Fork´ 
 
 ![screenshot](http://i.imgur.com/MctffGV.png)
+
+- Luego Github nos pregunta donde deberíamos hacer fork de dicho repositorio, lo voy a 
+asociar a mi cuenta woofshahenzup
+
+![screenshot](http://i.imgur.com/Azxnt6D.png)
+
+- Listo! Si se fijan en los recuadros rojos, en mi cuenta Woofshahenzup he hecho un fork
+del proyecto Clamvtk el cual pertenece a josejp2424. 
+
+![screenshot](http://i.imgur.com/ySX4rOE.png)
+
+- Ahora solo me haría falta clonar a mi PC mi fork de clamvtk.
+
+`git clone https://github.com/Woofshahenzup/Clamvtk.git`
+
+![screenshot](http://i.imgur.com/ug63oRz.png)
 
 Continuará....
