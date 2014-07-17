@@ -20,14 +20,14 @@ grupal?, bueno veamos algunas ventajas.
 - [La forma practica de usar git en Puppy](#la-forma-practica-de-usar-git-en-puppy)
 - [Tu identidad](#tu-identidad)
 - [Otros parámetros](#otros-parámetros)
-- [Trabajando en tu ordenador](#trabajando-en-tu-ordenador-)
+- [Trabajando en tu ordenador](#trabajando-en-tu-ordenador)
 - [Comandos útiles](#comandos-útiles)
 - [Creando ramas y su función](#creando-ramas-y-su-función)
 - [Fusionando cambios](#fusionando-cambios)
-- [Etiquetas o Tags](#etiquetas-o-tags-)
+- [Etiquetas o Tags](#etiquetas-o-tags)
 - [Aplicando a Puppy](#aplicando-a-puppy)
 - [Metiendo la pata :)](#metiendo-la-pata)
-- [La Manada en acción](#la-manada-en-acción-)
+- [La Manada en acción](#la-manada-en-acción)
 
 ##La forma practica de usar git en Puppy ##
 
