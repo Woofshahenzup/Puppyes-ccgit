@@ -504,10 +504,25 @@ de la siguiente manera.
 
 Si no hay ningun problema la terminal no les va a tirar ningun error
 
-SIEMPRE antes de trabajar en el proyecto, debemos actualizar el proyecto 
+SIEMPRE antes de trabajar en el proyecto, debemos actualizarlo. 
 
 `git pull upstream master`
 
 ![screenshot](http://i.imgur.com/yYzMC1a.png)
+
+MUY BIEN!! ahora trabajo normal agregando cambios a mi FORK.
+
+- `git add archivos` o `git add .`
+- `git commit -m "Mensaje de mis cambios realizado"`
+- `git push` o `git push origin master`
+
+- Despues nos dirigimos al sitio web de nuestro repositorio y pulsamos el botón 
+Pull Request
+
+![screenshot](http://i.imgur.com/P96glf4.png)
+
+- Luego seguimos los pasos que nos indiquen la página, llenamos la información que 
+nos solicite, completamos y le mandamos la información a josejp2424 con los cambios
+que hemos añadido.
 
 Continuará....
