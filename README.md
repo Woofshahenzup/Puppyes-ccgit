@@ -24,11 +24,12 @@ grupal?, bueno veamos algunas ventajas.
 - [Comandos útiles](#comandos-útiles)
 - [Creando ramas y su función](#creando-ramas-y-su-función)
 - [Fusionando cambios](#fusionando-cambios)
-- [Etiquetas o tags](#etiquetas-o-tags)
+- [Etiquetas o Tags](#etiquetas-o-tags)
 - [Aplicando a Puppy](#aplicando-a-puppy)
 - [Metiendo la pata :)](#metiendo-la-pata)
+- [La Manada en acción](#la-manada-en-acción)
 
-# #La forma practica de usar git en Puppy ##
+##La forma practica de usar git en Puppy ##
 
 Lo primero que debemos hacer es:
 - Crear nuestra cuenta en github.
@@ -426,3 +427,31 @@ entonces lo mas lógico sería.
 
 Esta forma no es exclusiva puede haber mas de una pero como usuario común resulta mas comodo así.
 De esa manera tendrás tus repositorios sincronizados, limpios, y en orden.
+
+## La Manada en acción ## 
+
+Ya tenemos claros algunos conceptos básicos sobre como trabajar git en Puppy, ahora
+la pregunta es: Como puedo contribuir con un proyecto donde no soy un desarrollador 
+directo, no conozco a ninguno del grupo de trabajo, no puedo pedirles que me hagan
+colaborador asi que es ahi donde entra en acción la palabra FORK.
+
+Veamos una definición simple entre clonar y hacer fork.
+
+Clonar un repositorio es descargar un repositorio remoto a tu pc en el cual tú eres el 
+propietario de ese repositorio o proyecto, tú decides que cambia y que no, tú decidse a 
+quien pones como Colaboradores, recuerda un colaborador tiene los mismos privilegios 
+que el propietario de dicho repositorio/proyecto.
+
+Hacer fork quiere decir que tu vas a crear una copia exacta de un proyecto X el cual le 
+pertenece a otra persona, dicha copia exacta estará asociada a tu cuenta de Github lo que 
+significa que habrán 2 proyectos con el mismo nombre, el repositorio original y la copia 
+asociada a tu cuenta, lo que significa que tu puedes hacer los cambios que quieras en tu 
+Fork, cambiar, borrar, editar, estropear lo que tu quieras sin que eso afecte al repositorio
+original, eso es muy bueno por la independencia que hay aun trabajando un mismo proyecto, y así 
+tu puedes si haces cambios y mejoras notables a dicho proyecto hacer PULL REQUEST, los 
+desarrolladores del proyecto revisan y prueban tus cambios y si eso mejora el repositorio 
+lo incorporan al proyecto o simplemente lo ignoran si así lo desean. 
+
+Lo cual está bien, si alguien hace FORK de un repositorio es por que piensa que le puede 
+servir y tú eres libre de mejorar tu FORK de otro proyecto, sin importar si tus cambios son o no
+agregados al proyecto original.
