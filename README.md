@@ -20,7 +20,7 @@ grupal?, bueno veamos algunas ventajas.
 - [La forma practica de usar git en Puppy](#la-forma-practica-de-usar-git-en-puppy)
 - [Tu identidad](#tu-identidad)
 - [Otros parámetros](#otros-parámetros)
-- [Trabajando en tu ordenador](#trabajando-en-tu-ordenador)
+- [Trabajando en tu ordenador](#trabajando-en-tu-ordenador-)
 - [Comandos útiles](#comandos-útiles)
 - [Creando ramas y su función](#creando-ramas-y-su-función)
 - [Fusionando cambios](#fusionando-cambios)
@@ -102,7 +102,7 @@ podremos trabajar nuestro proyecto con tranquilidad.
 ¿Demasiada teoria? bueno simplificando las cosas solo corriendo el script de automatizacion ya puedes
 tener lo anteriormente explicado claro con los paquetes instalados y con tu cuenta creada.
 
-##Trabajando en tu ordenador ## 
+##Trabajando en tu ordenador 
 
 ![screenshot](http://i.imgur.com/16yzwOn.png)
 
@@ -243,7 +243,7 @@ la vamos a necesitar màs por el momento.
 
 ![screenshot](http://i.imgur.com/zyWWSsE.png)
 
-##Etiquetas o Tags ## 
+##Etiquetas o Tags 
 
 Bien tratemos de ser prácticos. Un tag, etiqueta, viñeta o como tu prefieras llamarle es
 un punto en la historia de tu trabajo o proyecto en el cual ya tienes algo concreto.
@@ -428,7 +428,7 @@ entonces lo mas lógico sería.
 Esta forma no es exclusiva puede haber mas de una pero como usuario común resulta mas comodo así.
 De esa manera tendrás tus repositorios sincronizados, limpios, y en orden.
 
-##La Manada en acción ## 
+##La Manada en acción 
 
 Ya tenemos claros algunos conceptos básicos sobre como trabajar git en Puppy, ahora
 la pregunta es: Como puedo contribuir con un proyecto donde no soy un desarrollador 
@@ -457,3 +457,9 @@ servir o por que piensa que puede mejorarlo o adaptarlo a sus necesidades y tú 
 de mejorar tu FORK de otro proyecto, sin importar si tus cambios son o no
 agregados al proyecto original.
 
+Para hacer un Fork lo primero que debes haces es: estando logeado con tu cuenta y desde 
+el la página web de github presionamos el botón de `Fork´ desde el sitio web.
+
+![screenshot](http://i.imgur.com/MctffGV.png)
+
+Continuará....
