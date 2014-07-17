@@ -24,10 +24,10 @@ grupal?, bueno veamos algunas ventajas.
 - [Comandos útiles](#comandos-útiles)
 - [Creando ramas y su función](#creando-ramas-y-su-función)
 - [Fusionando cambios](#fusionando-cambios)
-- [Etiquetas o Tags](#etiquetas-o-tags)
+- [Etiquetas o Tags](#etiquetas-o-tags-)
 - [Aplicando a Puppy](#aplicando-a-puppy)
 - [Metiendo la pata :)](#metiendo-la-pata)
-- [La Manada en acción](#la-manada-en-acción)
+- [La Manada en acción](#la-manada-en-acción-)
 
 ##La forma practica de usar git en Puppy ##
 
@@ -438,7 +438,7 @@ colaborador asi que es ahi donde entra en acción la palabra FORK.
 Veamos una definición simple entre clonar y hacer fork.
 
 Clonar un repositorio es descargar un repositorio remoto a tu pc en el cual tú eres el 
-propietario de ese repositorio o proyecto, tú decides que cambia y que no, tú decidse a 
+propietario de ese repositorio o proyecto, tú decides que cambia y que no, tú decides a 
 quien pones como Colaboradores, recuerda un colaborador tiene los mismos privilegios 
 que el propietario de dicho repositorio/proyecto.
 
@@ -450,8 +450,10 @@ Fork, cambiar, borrar, editar, estropear lo que tu quieras sin que eso afecte al
 original, eso es muy bueno por la independencia que hay aun trabajando un mismo proyecto, y así 
 tu puedes si haces cambios y mejoras notables a dicho proyecto hacer PULL REQUEST, los 
 desarrolladores del proyecto revisan y prueban tus cambios y si eso mejora el repositorio 
-lo incorporan al proyecto o simplemente lo ignoran si así lo desean. 
+lo incorporan al proyecto o simplemente lo ignoran si no les parecen esos cambios y sí así lo desean. 
 
 Lo cual está bien, si alguien hace FORK de un repositorio es por que piensa que le puede 
-servir y tú eres libre de mejorar tu FORK de otro proyecto, sin importar si tus cambios son o no
+servir o por que piensa que puede mejorarlo o adaptarlo a sus necesidades y tú eres libre 
+de mejorar tu FORK de otro proyecto, sin importar si tus cambios son o no
 agregados al proyecto original.
+
