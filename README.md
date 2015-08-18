@@ -525,4 +525,37 @@ Pull Request
 nos solicite, completamos y le mandamos la información a josejp2424 con los cambios
 que hemos añadido.
 
+- Ok ahora aclarando bien el concepto para trabajar colaborando con otros desarrolladores lo que 
+hay que hacer es:
+
+1- Hacer fork de cualquier proyecto ( botón de fork desde el navegador )
+
+2- Clonar el fork de ese proyecto a nuestra pc ( carpeta local )
+
+3- Hacer add upstream para nuestro repositorio ( traer el repositorio original a nuestro proyecto )
+   
+   nótese el cambio al hacer upstream 
+   
+![screenshot] (http://i.imgur.com/QQYIGYR.png)
+
+4- Actualizar los repositorios con nuestra carpeta local
+
+ `git fetch upstream`
+ 
+5- Cambiar a nuestra rama principal 
+
+ `git checkout master` 
+
+6- Hacer merge del master upstream con nuestro master 
+
+ `git merge upstream/master`
+ 
+7- Hacer el push a nuestro repositorio en github 
+ 
+ `git push origin master`
+ 
+- Es muy importante estar actualizando nuestro repositorio con el original para evitar problemas de sincronía y 
+hacer nuestros pull request sin afectar al desarrollador 'fetch upstream y merge upstream/master' antes de empezar 
+a trabajar en nuestro repositorio local y hacer pull request.
+
 Continuará....
