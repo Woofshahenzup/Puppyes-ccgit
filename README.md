@@ -536,7 +536,7 @@ hay que hacer es:
    
    nótese el cambio al hacer upstream 
    
-![screenshot] (http://i.imgur.com/QQYIGYR.png)
+![screenshot](http://i.imgur.com/QQYIGYR.png)
 
 4- Actualizar los repositorios con nuestra carpeta local
 
